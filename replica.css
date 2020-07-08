@@ -1,8 +1,65 @@
-.body{
-    background-color: tomato
+*{
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(242, 243, 243)  
+    
 }
-.header{
-    font-size: 20px;
-    text-transform: uppercase;
-    text-align: center;
+#contenedor{
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    
+  
+}
+ul {
+  list-style: none;
+
+}
+li {
+    float: left;
+}
+h2{
+    font-size: 30px;
+    width: 40%;
+}
+
+h1{
+    font-size: 60px;
+}
+.contenedor{
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    
+     
+} 
+
+/*
+    display: block;
+    float: right;
+    justify-content: right;
+    justify-content: space-between;
+*/
+
+ img{
+     width: 500px;
+     height: 300px;
+   
+
+ }
+
+ .articulo{
+     width: 50%;
+ 
+ }
+
+input {
+   background:#58a573;
+   color: white;
+   font-size: 20px;
+   width: 250px;
+   height: 80px;
+    
 }
